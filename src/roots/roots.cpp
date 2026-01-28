@@ -145,7 +145,7 @@ bool secant(std::function<double(double)> f,
         if (std::abs(f(x2)) < TOL)
         {
             *root = x2;
-            return true;
+            return true; 
         }
 
         x0 = x1;
